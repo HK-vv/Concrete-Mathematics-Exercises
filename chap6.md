@@ -234,7 +234,7 @@ even:\ f(x,y)=f(-x,-y)
 $$
 容易看到对任意变量求偏导交换函数奇偶性.
 
-二元函数 $f(x,y)$ 的泰勒级数展开式为：$f(x,y) = \sum_{m=0}^\infty \sum_{n=0}^\infty \frac{1}{m!n!} \frac{\partial^{m+n} f}{\partial x^m \partial y^n}\bigg|_{(0,0)} x^my^n$. 因此奇函数的展开只有指标和为奇的项, 偶函数只有偶项.
+二元函数 $f(x,y)$ 的泰勒级数展开式为：$f(x,y) = \sum_{m=0}^\infty \sum_{n=0}^\infty \frac{1}{m!n!} \frac{\partial^{m+n} f}{\partial x^m \partial y^n}\bigg|_{(0,0)} x^my^n$. 因此奇函数的展开只有指标和为奇的项, 偶函数只有偶项. //
 
 回到题目, 设$A(w,z)=\frac{\sin z}{\cos(w+z)},\ B(w,z)=\frac{\cos z}{\cos(w+z)},\ A+B=C=\sum c_{m,n}\frac{w^mz^n}{m!n!}$.
 
